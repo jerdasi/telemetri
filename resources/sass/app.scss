@@ -1,0 +1,23 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import "variables/variables";
+@import "variables/theme-variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+@import "icons/tabler-icons/tabler-icons.css";
+
+@import "layouts/sidebar";
+@import "layouts/header";
+@import "layouts/layouts";
+
+@import "component/reboot";
+@import "component/card";
+@import "component/pagination";
+
+@import "utilities/icon-size";
+@import "utilities/background";

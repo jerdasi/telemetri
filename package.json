@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "format": "npx prettier --write resources/"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@tabler/icons": "^2.47.0",
+        "apexcharts": "^3.46.0",
+        "axios": "^1.6.4",
+        "bootstrap": "^5.2.3",
+        "jquery": "^3.7.1",
+        "laravel-vite-plugin": "^1.0.0",
+        "prettier": "^3.2.5",
+        "prettier-plugin-blade": "^2.1.6",
+        "sass": "^1.56.1",
+        "vite": "^5.0.0"
+    }
+}
