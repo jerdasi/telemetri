@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="table-responsive">
-                    <table class="table text-nowrap mb-0 align-middle">
+                    <table class="table table-striped text-nowrap mb-0 align-middle">
                         <thead class="text-dark fs-4 bg-primary border-bottom">
                             <tr>
                                 <th class="border-bottom-0">

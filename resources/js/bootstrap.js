@@ -7,11 +7,11 @@ import "bootstrap";
  */
 
 import axios from "axios";
-import * as apexcharts from "apexcharts";
+import Apexcharts from "apexcharts";
 import jQuery from "jquery";
 
 window.axios = axios;
-window.apexcharts = apexcharts;
+window.ApexCharts = Apexcharts;
 window.$ = jQuery;
 
 window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";

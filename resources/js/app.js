@@ -39,7 +39,6 @@ $(function () {
     });
 
     $("#togglePassword").click(function () {
-        console.log("Keklik");
         let passwordInput = $("#password");
 
         if (passwordInput.attr("type") === "password") {
@@ -49,15 +48,6 @@ $(function () {
             passwordInput.attr("type", "password");
             $("#togglePassword").html("<i class='ti ti-eye-off'>");
         }
-        console.log(passwordInput.attr("type"));
-
-        // if (passwordInput.attr("type") === "password") {
-        //     passwordInput.attr("type", "text");
-        //     buttonText.text("Hide");
-        // } else {
-        //     passwordInput.attr("type", "password");
-        //     buttonText.text("Show");
-        // }
     });
 });
 // console.log('Tes');
